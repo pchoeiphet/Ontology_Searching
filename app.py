@@ -64,7 +64,7 @@ def search_province():
         
         # ถ้าไม่พบผลลัพธ์
         if not results:
-            results.add("ไม่พบข้อมูลที่ค้นหา" if lang == 'th' else "No data found")
+            results.add("❌ ไม่พบข้อมูลจังหวัดนี้" if lang == 'th' else "❌ Province details not found")
 
     return render_template('index.html', results=sorted(results), province_name=province_name, lang=lang, current_lang=lang)
 
