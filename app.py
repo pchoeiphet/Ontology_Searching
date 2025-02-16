@@ -11,15 +11,15 @@ ns = Namespace("http://www.my_ontology.edu/mytourism#")
 # คำแปลของ Predicate ตามภาษา
 predicate_translations = {
     'hasFlower': {'th': 'ดอกไม้ประจำจังหวัด', 'en': 'Flower'},
-    'hasImageOfProvince': {'th': 'รูปภาพของจังหวัด', 'en': 'Image Of Province'},
-    'hasLatitudeOfProvince': {'th': 'ละติจูดของจังหวัด', 'en': 'Latitude'},
-    'hasLongitudeOfProvince': {'th': 'ลองจิจูดของจังหวัด', 'en': 'Longitude'},
+    'hasImageOfProvince': {'th': 'ชื่อรูปภาพของจังหวัด', 'en': 'Image Of Province'},
+    'hasLatitudeOfProvince': {'th': 'พิกัดละติจูดของจังหวัด', 'en': 'Latitude'},
+    'hasLongitudeOfProvince': {'th': 'พิกัดลองจิจูดของจังหวัด', 'en': 'Longitude'},
     'hasMotto': {'th': 'คำขวัญของจังหวัด', 'en': 'Motto'},
     'hasNameOfProvince': {'th': 'ชื่อจังหวัด', 'en': 'Name Of Province'},
     'hasSeal': {'th': 'สัญลักษณ์ประจำจังหวัด', 'en': 'Seal'},
     'hasTraditionalNameOfProvince': {'th': 'ชื่อเดิมของจังหวัด', 'en': 'Traditional Name Of Province'},
     'hasTree': {'th': 'ต้นไม้ประจำจังหวัด', 'en': 'Tree'},
-    'hasURLOfProvince': {'th': 'เว็บไซต์ของจังหวัด', 'en': 'URL Of Province'}
+    'hasURLOfProvince': {'th': 'ชื่อเว็บไซต์ของจังหวัด', 'en': 'URL Of Province'}
 }
 
 @app.route('/', methods=['GET', 'POST'])
